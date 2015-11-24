@@ -29,6 +29,7 @@ public class SpitterControllerTest {
 		.andExpect(view().name("registerForm"));
 	}
 	
+	
 	@Test
 	public void shouldProcessRegistration() throws Exception{
 		Spitter unsaved = new Spitter("user123","pwd123","first","last");
